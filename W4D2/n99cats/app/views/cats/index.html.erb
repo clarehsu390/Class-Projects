@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <h1>All Cats</h1>
+  <ul>
+
+   <% @cats.each_with_index do |cat,inx| %>
+     <!-- <%= cat.name %> -->
+     <br>
+     <%= link_to "#{inx+1}: #{cat.name} Details" , cat_url(cat) %>
+     <br><br>
+     <%= link_to "---Edit Cat---", edit_cat_url(cat) %>
+     <br>
+   <% end %>
+ </ul>
+ <br>
+ <%= link_to "Insert Cat", new_cat_url %>
+ <br>
+
+</html>

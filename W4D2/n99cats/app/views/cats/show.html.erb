@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <form action= "<%= cat_url(@cat) %>" method="get">
+
+
+    <p>Cat Details</p>
+<table>
+  <tr>
+    <th>Cat Name</th>
+    <th>Age</th>
+    <th>Color</th>
+    <th>Gender</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td> <%=@cat.name %> </td>
+    <td> <%=@cat.age %> </td>
+    <td> <%=@cat.color %> </td>
+    <td> <%=@cat.gender %> </td>
+    <td> <%=@cat.description %> </td>
+  </tr>
+</table>
+
+  </body>
+</html>
