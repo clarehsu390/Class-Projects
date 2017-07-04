@@ -1,0 +1,20 @@
+/*.tower {
+  border: 5px solid black;
+  height: 500px;
+  width: 200px;
+
+}*/
+
+.tower {
+  float: left;
+  list-style: none;
+  border: 5px solid black;
+  height: 500px;
+  width: 200px;
+  display: inline;
+  margin: 10px;
+}
+
+ul {
+  list-style: none;
+}

@@ -1,0 +1,42 @@
+.square {
+  float: left;
+  border: 5px solid black;
+  width: 200px;
+  height: 200px;
+  background: gray;
+}
+
+li:hover {
+  background: yellow;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  width: 900px;
+  height: 900px;
+}
+
+.X:after{
+  background: white;
+  content: "X";
+  font-size: 150px;
+  font-family: sans-serif;
+  display: block;
+  height: 200px;
+  text-align: center;
+
+}
+
+.O:after {
+  background: white;
+  content: "O";
+  font-size: 150px;
+  font-family: sans-serif;
+  display: block;
+  height: 200px;
+  text-align: center;
+
+}
